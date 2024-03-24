@@ -8,28 +8,28 @@ const items = [
     id: 1,
     title: "Movix",
     img: "/movix.png",
-    desc: "' use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:",
+    desc: "Streamlined movie and TV show discovery with dynamic carousels, powerful search, and personalized content customization features.",
     link:"https://movie-movix-app.netlify.app/",
   },
   {
     id: 2,
     title: "CryptoTracker",
     img: "/crypto.png",
-    desc: "'Lorem  will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:",
+    desc: "Real-time cryptocurrency tracking with interactive comparison, comprehensive market overview, and personalized watchlist functionality.",
     link:"https://live-cryptotracker-webapp.netlify.app/"
   },
   {
     id: 3,
     title: "Podpulse",
     img: "/podPulse.png",
-    desc: "“Lorem  will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:",
+    desc: "Advanced podcast platform offering secure authentication, seamless storage, dynamic user experience, and custom audio player integration.",
     link:"https://podpulse-podcast-app.netlify.app/"
   },
   {
     id: 4,
     title: "Type-Speed Test",
     img: "/typing.png",
-    desc: "“Lorem ipsum” services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:",
+    desc: "Assess and improve typing proficiency with accurate speed measurements, varied test durations, and detailed performance analysis.",
     link:""
   },
 ];
