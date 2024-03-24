@@ -30,7 +30,7 @@ const items = [
     title: "Type-Speed Test",
     img: "/typing.png",
     desc: "Assess and improve typing proficiency with accurate speed measurements, varied test durations, and detailed performance analysis.",
-    link:""
+    link:"https://ashutoshbot1.github.io/Type-Speed-Test-2/"
   },
 ];
 

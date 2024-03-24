@@ -1,7 +1,7 @@
 import { useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import "./Single.scss";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 
 const Single = ({ item }) => {
   const ref = useRef();
@@ -19,10 +19,12 @@ const Single = ({ item }) => {
           <div className="image-container" ref={ref}>
             <img src={item.img} alt="" />
           </div>
-          <motion.div className="textContainer" style={{y}}>
+          <motion.div className="textContainer" style={{ y }}>
             <h2 style={{ y }}>{item.title}</h2>
             <p>{item.desc}</p>
-            <button src={item.link}>Live Link</button>
+            <a href={item.link} target="_blank">
+              <button>Live Link</button>
+            </a>
           </motion.div>
         </div>
       </div>
